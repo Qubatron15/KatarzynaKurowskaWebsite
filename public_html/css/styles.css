@@ -27,15 +27,15 @@ body {
     }
 }
 
-.h-line {
+/*.h-line {
     height: 1px;
     width: 0;
     background: #eeeeee;
-    /*margin-left: 0;*/
+    margin-left: 0;
     animation: horizontalLine 0.7s linear;
     width: 100%;
     margin: 15px 0 15px 0;
-}
+}*/
 
 .sidebar {
     min-height: 200px;
@@ -49,20 +49,21 @@ body {
     max-width: 100px;
     color: #777777;
     margin-bottom: 4px;
-    -webkit-transition: 2s ease-in-out;
+/*    -webkit-transition: 2s ease-in-out;
     -moz-transition: 2s ease-in-out;
-    -o-transition: 2s ease-in-out;
-    transition: 2s ease-in-out;
+    -o-transition: 2s ease-in-out;*/
+    /*transition: 2s ease-in-out;*/
     cursor: pointer;
-	white-space: nowrap;
+    white-space: nowrap;
 }
 
 .sidebar li h5:hover {
-    -webkit-transform: translate(0.5em,0);
-    -moz-transform: translate(0.5em,0);
-    -o-transform: translate(0.5em,0);
-    -ms-transform: translate(0.5em,0);
-    transform: translate(0.5em,0);
+    /*-webkit-transform: translate(0.5em,0);*/
+    /*-moz-transform: translate(0.5em,0);*/
+    /*-o-transform: translate(0.5em,0);*/
+    /*-ms-transform: translate(0.5em,0);*/
+    /*transform: translate(0.5em,0);*/
+    color: black;
 }
 
 @keyframes maincontent {
